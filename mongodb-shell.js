@@ -1,0 +1,1 @@
+db.action_traces.remove({'act.account': {$in: ["betdicealert","yumgamealert","news.x","alert.x","message.bank","candy.pra","eosplayaloud","experimentms","betdiceadmin","1hello1world","eoseosaddddd","watchdoggiee","eospromoter1"]}})
