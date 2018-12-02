@@ -1,1 +1,26 @@
-db.action_traces.remove({'act.account': {$in: ["betdicealert","yumgamealert","news.x","alert.x","message.bank","candy.pra","eosplayaloud","experimentms","betdiceadmin","1hello1world","eoseosaddddd","watchdoggiee","eospromoter1"]}})
+db.action_traces.remove({
+    'act.account': {
+        $in: [
+            "1hello1world",
+            "2g1com.x",
+            "alert.x",
+            "betdiceadmin",
+            "betdicealert",
+            "candy.pra",
+            "contractbase",
+            "eoseosaddddd",
+            "eosplayaloud",
+            "eospromdress",
+            "eospromoter1",
+            "experimentms",
+            "gameboylucky",
+            "message.bank",
+            "news.x",
+            "rockscissors",
+            "watchdoggiee",
+            "watchdoggiee",
+            "wizznetwork1",
+            "yumgamealert"
+        ]
+    }
+})
